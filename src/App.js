@@ -40,7 +40,7 @@ function App() {
     <div className="App">
       {
         !isLoading &&
-        <img style={{ position: 'absolute', zIndex: '2', width: '100%', height: '100%', left: '0' }} src='/Falling Confetti Happy Birthday Gif Pictures, Photos, And Images For  DDE.gif' />
+        <img style={{ position: 'absolute', zIndex: '2', width: '100%', height: '100%', left: '0' }} src='./Falling Confetti Happy Birthday Gif Pictures, Photos, And Images For  DDE.gif' />
       }
       <header style={{ position: 'relative' }} className="App-header">
         {
@@ -54,7 +54,7 @@ function App() {
             </span>
         }
         {
-          isLoading && <img style={{ position: 'absolute', bottom: '5rem' }} src='/party-popper-confetti.gif' />
+          isLoading && <img style={{ position: 'absolute', bottom: '5rem' }} src='./party-popper-confetti.gif' />
         }
       </header>
     </div>
